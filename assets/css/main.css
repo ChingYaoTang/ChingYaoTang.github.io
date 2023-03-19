@@ -2165,6 +2165,11 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+	.imageAtLeft {
+		float: left;
+		margin: 0 1.5em 1.25em 0;
+        clear: both;
+	}
 
 		.image img {
 			display: block;
@@ -2947,7 +2952,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 13%;
 			}
 
 				.spotlights > section > .image img {
@@ -3490,6 +3495,9 @@ input, select, textarea {
 				opacity: 0.75;
 			}
 
+		#banner.major_style {
+			height: 50vh;
+		}
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}

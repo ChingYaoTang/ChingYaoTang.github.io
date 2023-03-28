@@ -2166,7 +2166,7 @@ input, select, textarea {
 		position: relative;
 	}
 	.imageAtLeft {
-		float: left;
+		float: none;
 		margin: 0 1.5em 1.25em 0;
         clear: both;
 	}
